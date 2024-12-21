@@ -1,17 +1,19 @@
 import {createBrowserRouter,} from "react-router-dom";
 import {
-    CampaignDetailsPage,
-    CampaignsPage,
-    CreateCampaignPage,
-    DashboardPage,
-    DetailError404Page,
+    // CampaignDetailsPage,
+    // CampaignsPage,
+    // CreateCampaignPage,
+    // DashboardPage,
+    // DetailError404Page,
     Error404Page,
     HomePage,
     HowItWorksPage,
     LoginPage,
     SignupPage
 } from "../pages";
-import {DashboardLayout, PublicLayout} from "../layout";
+import {
+    // DashboardLayout, 
+    PublicLayout} from "../layout";
 
 const router = createBrowserRouter([
     {
