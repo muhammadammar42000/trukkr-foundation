@@ -41,7 +41,7 @@ const HomePage = (): JSX.Element => {
   return (
     <>
       <Helmet>
-        <title>Home</title>
+        {/* <title>Home</title> */}
       </Helmet>
       <Box>
         <HeroSection />

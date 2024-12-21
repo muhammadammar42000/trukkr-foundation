@@ -12,15 +12,14 @@ import {
 } from "@mantine/core";
 import { IconRocket } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
-// import bannerTest from "../../../public/bannerTest.jpg";
+import bannerTest from "../../assets/img/bannerTest.jpg";
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
     position: "relative",
     paddingTop: rem(180),
     paddingBottom: rem(130),
-    backgroundImage:
-      "url(../../../public/bannerTest.jpg)",
+    backgroundImage: `url(${bannerTest})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: rem(640),
