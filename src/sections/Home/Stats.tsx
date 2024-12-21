@@ -13,7 +13,7 @@ import { TitleBadge } from "../../components";
 
 const mockData = [
   {
-    amount: "5B",
+    amount: "500K",
     description: "Dollars raised for trucking family welfare programs",
   },
   {

@@ -190,7 +190,8 @@ const HeroSection = () => {
             variant="white"
             size="lg"
             component={Link}
-            to="/create-campaign"
+            // to="/create-campaign"
+            to="#"
           >
             Donate Now
           </Button>
@@ -199,7 +200,9 @@ const HeroSection = () => {
             variant="white"
             size="lg"
             component={Link}
-            to="/campaigns"
+            // to="/campaigns"
+            to="#"
+
           >
             Learn More
           </Button>

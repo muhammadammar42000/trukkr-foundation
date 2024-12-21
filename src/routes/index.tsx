@@ -48,47 +48,47 @@ const router = createBrowserRouter([
             }
         ]
     },
-    {
-        path: "campaigns",
-        element: <PublicLayout/>,
-        children: [
-            {
-                path: "",
-                index: true,
-                element: <CampaignsPage/>,
-                errorElement: <Error404Page/>,
-            },
-            {
-                path: ":id",
-                element: <CampaignDetailsPage/>,
-                errorElement: <DetailError404Page/>
-            }
-        ]
-    },
-    {
-        path: "dashboard",
-        element: <DashboardLayout/>,
-        errorElement: <Error404Page/>,
-        children: [
-            {
-                path: '',
-                index: true,
-                element: <DashboardPage/>
-            }
-        ]
-    },
-    {
-        path: "create-campaign",
-        element: <DashboardLayout/>,
-        errorElement: <Error404Page/>,
-        children: [
-            {
-                path: '',
-                index: true,
-                element: <CreateCampaignPage/>
-            }
-        ]
-    },
+    // {
+    //     path: "campaigns",
+    //     element: <PublicLayout/>,
+    //     children: [
+    //         {
+    //             path: "",
+    //             index: true,
+    //             element: <CampaignsPage/>,
+    //             errorElement: <Error404Page/>,
+    //         },
+    //         {
+    //             path: ":id",
+    //             element: <CampaignDetailsPage/>,
+    //             errorElement: <DetailError404Page/>
+    //         }
+    //     ]
+    // },
+    // {
+    //     path: "dashboard",
+    //     element: <DashboardLayout/>,
+    //     errorElement: <Error404Page/>,
+    //     children: [
+    //         {
+    //             path: '',
+    //             index: true,
+    //             element: <DashboardPage/>
+    //         }
+    //     ]
+    // },
+    // {
+    //     path: "create-campaign",
+    //     element: <DashboardLayout/>,
+    //     errorElement: <Error404Page/>,
+    //     children: [
+    //         {
+    //             path: '',
+    //             index: true,
+    //             element: <CreateCampaignPage/>
+    //         }
+    //     ]
+    // },
 ]);
 
 

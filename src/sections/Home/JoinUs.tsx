@@ -61,7 +61,7 @@ const JoinUsSection = ({ boxProps, subtitleProps }: IProps) => {
               </Text>
             </Stack>
           </Flex>
-          <Avatar.Group spacing="sm">
+          {/* <Avatar.Group spacing="sm">
             <Avatar
               src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
               radius="xl"
@@ -79,13 +79,13 @@ const JoinUsSection = ({ boxProps, subtitleProps }: IProps) => {
               radius="xl"
             />
             <Avatar radius="xl">+5</Avatar>
-          </Avatar.Group>
-          <Progress value={50} />
-          <Button>Join Our Network</Button>
+          </Avatar.Group> */}
+          {/* <Progress value={50} /> */}
+          {/* <Button>Join Our Network</Button> */}
         </Stack>
         <Box mx={matchesMobile ? 0 : "auto"}>
           <Image
-            src="https://www.wipo.int/documents/d/wipo-academy/images-wipo-academy-ipti-joint-cooperation-projects-960.jpg"
+            src="/progress.jpeg"
             width={matchesMobile ? "100%" : 500}
             height={400}
             radius="sm"
