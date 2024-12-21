@@ -1,0 +1,23 @@
+import { LandingNavbar } from "../components";
+import { ReactNode } from "react";
+import { Box } from "@mantine/core";
+
+import { Outlet } from "react-router-dom";
+
+interface IProps {
+  children?: ReactNode;
+  compressedNav?: boolean;
+}
+
+const PublicLayout = ({ compressedNav }: IProps) => {
+  return (
+    <>
+      <LandingNavbar compressed={compressedNav} />
+      <Box sx={{ marginTop: compressedNav ? 0 : 96 }}>
+        <Outlet />
+      </Box>
+    </>
+  );
+};
+
+export default PublicLayout;
